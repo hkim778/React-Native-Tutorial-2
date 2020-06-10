@@ -6,7 +6,7 @@ import Colors from '../constants/colors';
 const NumberContainer = (props) => {
     return(
         <View style={styles.container}>
-            <Text style={styles.numbers}>{props.children}</Text>
+            <Text style={styles.numbers }>{props.children}</Text>
         </View>
     );
 };
